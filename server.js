@@ -4,7 +4,7 @@ const app = express();
 app.use(express.static('frontend'));
 
 app.get('/', function(req, res){
-    res.send("Welcome to Vansh's Site");
+    res.send("Welcome to Jiya's Site");
 })
 
 const PORT = process.env.PORT || 3000;
